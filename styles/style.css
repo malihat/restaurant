@@ -94,6 +94,7 @@ ul li a:hover {
 .header-text {
   color: rgb(168, 29, 5);
   font-family: 'Lobster Two', cursive;
+  text-shadow: 2px 2px rgb(125, 125, 125);
   font-size: 2.5em;
   position: relative;
   top: 37%;
@@ -168,7 +169,7 @@ ul li a:hover {
 #banner p {
   position: relative;
   top: 40%;
-  font-size: 210%;
+  font-size: 230%;
   font-weight: 500;
   color:rgb(238, 236, 236);
 }
@@ -297,6 +298,20 @@ footer {
   animation: none !important;
   visibility: visible !important;
 }
+.fa-twitter-square, .fa-facebook-square {
+  color:rgb(168, 29, 5);
+  margin: 15px 0 20px; 
+  transition: 0.7s linear;
+}
+.fa-facebook-square {
+  margin-left: 20px;
+}
+.fa-2x {
+  font-size: 1.8em;
+}
+.fa-twitter-square:hover, .fa-facebook-square:hover {
+  transform: scale(1.3);
+}
 .footer h3 {
   color: rgb(168, 29, 5);
   font-size: 1.5em;
@@ -418,6 +433,7 @@ p.schedule {
   nav {
     display: none;
   }
+  /* Code taken from  https://codepen.io/designcouch/pen/Atyop */
   #nav-icon3 {
     display: block;
     width: 45px;
@@ -483,14 +499,7 @@ p.schedule {
     width: 0%;
     left: 50%;
   }
-  i.fa.fa-bars {
-    width: 50px;
-    height: 50px;
-    color: lime;
-  }
-  i.fa.fa-bars {
-    display: block;
-  }
+  /* ---Code taken from  https://codepen.io/designcouch/pen/Atyop */
   .hidden-navbar {
     height: 100vh;
     width: 300px;
